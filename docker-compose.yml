@@ -2,3 +2,5 @@ services:
   javascript-app:
     build: .
     container_name: javascript_app
+    ports:
+      - "3000:3000"
