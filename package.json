@@ -1,0 +1,13 @@
+{
+  "name": "repo-javascript",
+  "version": "1.0.0",
+  "description": "Aplicación básica en JavaScript con ESLint, pre-commit y Docker",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
